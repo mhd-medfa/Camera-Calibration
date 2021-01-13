@@ -65,7 +65,7 @@ n
   <img align="center" alt="" width="540px" src="https://i.ibb.co/M2XvYSb/eliminate-padding.png" />
 </a>
 
-**We see that a* layer (a*: Red/Green Value) of Lab image gives us good result**
+**We see that a\* layer (a\*: Red/Green Value) of Lab image gives us good result**
 
 <a href="">
   <img align="center" alt="" width="540px" src="https://i.ibb.co/dGsrHCw/A-layer-of-lab-image.png" />
