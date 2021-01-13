@@ -1,3 +1,5 @@
 dataset/*.jpg
+!dataset/IMG_20201001_132924.jpg
+!dataset/IMG_20201001_132945.jpg
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
