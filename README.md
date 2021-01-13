@@ -1,19 +1,19 @@
 # Camera-Calibration
 
-The goal is to find the intrinsic and extrinsic parameters on
-camera on Xiaomi Mi A1 mobile phone. before getting started I disabled autofocus mode of the camera.
+The goal is to find the intrinsic and extrinsic parameters oncamera on Xiaomi Mi A1 mobile phone. before getting started I disabled autofocus mode of the camera.
 I made 31 photos of chessboard.
-
-The size of square on the chessboard I used is 15 mm. The key is that we will know each square size and we will assume each square is equal. It means, that now we know the coordinates of each point on the chess plane. After that we can use the formulas to define intrinsic and extrinsic parameters
 
 <a href="">
   <img align="center" alt="" width="540px" src="./chessboard/Chessboard_to_be_printed_on_A4_paper.png" />
 </a>
 
+The size of square on the chessboard I used is 15 mm. The key is that we will know each square size and we will assume each square is equal. It means, that now we know the coordinates of each point on the chess plane. After that we can use the formulas to define intrinsic and extrinsic parameters
+
 
 <a href="">
   <img align="center" alt="" width="540px" src="./test/IMG_20201001_133037.jpg" />
 </a>
+
 
 ### Calibration code
 
@@ -58,6 +58,7 @@ Use the cameraParameters object to remove lens distortion from the image. This i
   <img align="center" alt="" width="540px" src="https://i.ibb.co/Cbhf2Y2/undistort-image.png" />
 </a>
 
+
 Just to make the problem easier temporarily we will eliminate the padding area
 
 <a href="">
@@ -70,24 +71,27 @@ We see that a* layer (a*: Red/Green Value) of Lab image gives us good result
   <img align="center" alt="" width="540px" src="https://i.ibb.co/dGsrHCw/A-layer-of-lab-image.png" />
 </a>
 
+
 To find the contour of the object we will use the closing morphological transform
 
 <a href="">
   <img align="center" alt="" width="540px" src="https://i.ibb.co/FzRcvHp/find-contour-with-closing-morph-transform.png" />
 </a>
 
-**Duh! why we still have a gray scale image let's convert it to binary image to make our calculations faster and even having better results**
 
+Duh! why we still have a gray scale image let's convert it to binary image to make our calculations faster and even having better results
 
 <a href="">
   <img align="center" alt="" width="540px" src="https://i.ibb.co/RYjJycz/gray2binary.png" />
 </a>
+
 
 Let's use cv2.goodFeaturesToTrack to get corners of the object and we need to calculate the new chessboard corners, then let's visualize the corners to check the quality of result
 
 <a href="">
   <img align="center" alt="" width="540px" src="https://i.ibb.co/B4x99xt/result.png" />
 </a>
+
 
 Well that's not bad, I think it's enough for now since we have the ability to calculate the sides of the rubik's cube and block size of chessboard
 
