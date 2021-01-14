@@ -23,6 +23,8 @@
     <img alt="LICENSE" src="https://img.shields.io/github/license/mhd-medfa/Camera-Calibration?style=flat-square&color=yellow">
   <a/>
 </p>
+<hr>
+
 The goal is to find the intrinsic and extrinsic parameters oncamera on Xiaomi Mi A1 mobile phone. before getting started I disabled autofocus mode of the camera.
 I made 31 photos of chessboard.
 
