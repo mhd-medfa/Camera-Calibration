@@ -1,5 +1,28 @@
 # Camera-Calibration
+<p align="center">
 
+  <a href="https://github.com/mhd-medfa/Camera-Calibration/commits/master" target="_blank">
+    <img src="https://img.shields.io/github/last-commit/mhd-medfa/Camera-Calibration?style=flat-square" alt="GitHub last commit">
+  </a>
+
+  <a href="https://github.com/mhd-medfa/Camera-Calibration/issues" target="_blank">
+    <img src="https://img.shields.io/github/issues/mhd-medfa/Camera-Calibration?style=flat-square&color=red" alt="GitHub issues">
+  </a>
+
+  <a href="https://github.com/mhd-medfa/Camera-Calibration/pulls" target="_blank">
+    <img src="https://img.shields.io/github/issues-pr/mhd-medfa/Camera-Calibration?style=flat-square&color=blue" alt="GitHub pull requests">
+  </a>
+
+  </br>
+
+  <a href="https://github.com/mhd-medfa/Camera-Calibration#contribute" target="_blank">
+    <img alt="Contributors" src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
+  </a>
+
+  <a href="https://github.com/mhd-medfa/Camera-Calibration/blob/master/LICENSE" target="_blank">
+    <img alt="LICENSE" src="https://img.shields.io/github/license/mhd-medfa/Camera-Calibration?style=flat-square&color=yellow">
+  <a/>
+</p>
 The goal is to find the intrinsic and extrinsic parameters oncamera on Xiaomi Mi A1 mobile phone. before getting started I disabled autofocus mode of the camera.
 I made 31 photos of chessboard.
 
@@ -118,3 +141,5 @@ Tether address: <a href="0x0006a16f43D0fdf480bCc88D4398Fe73D6806fc9">
   <img align="left" alt="TetherUSD" width="22px" src="https://raw.githubusercontent.com/mhd-medfa/mhd-medfa/main/assets/tether.svg" />
 </a>
 <mark>`0x0006a16f43D0fdf480bCc88D4398Fe73D6806fc9`</mark>
+
+Licensed under [MIT License](LICENSE).
